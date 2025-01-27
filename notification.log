@@ -1,0 +1,280 @@
+Received Notification: Array
+(
+)
+Received Notification: Array
+(
+)
+Received Notification: Array
+(
+)
+Received Notification: Array
+(
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 201
+            [transaction_id] => A120241213063316wIsaxOPzHFID
+            [gross_amount] => 10000.00
+            [currency] => IDR
+            [order_id] => A120241213063316wIsaxOPzHFID
+            [payment_type] => dana
+            [signature_key] => 3ed751e7198818c237b0556eb476c56c6dce12caf38fe3ad4c61d8a71e0a30eb11a68f2799656bfbfe5bcdeabe50f3bc696040b4e706a8b93b071fb2dad603b1
+            [transaction_status] => pending
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 13:33:16
+            [expiry_time] => 2024-12-13 13:48:16
+        )
+
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 200
+            [transaction_id] => A120241213063316wIsaxOPzHFID
+            [gross_amount] => 10000.00
+            [currency] => IDR
+            [order_id] => A120241213063316wIsaxOPzHFID
+            [payment_type] => dana
+            [signature_key] => 474da090c85ad69b678498c1567812cd462c8015c5b436a01ce350cc369f1a0949aad108a5a7f2ff1c63588b78d018a0e93b88d9a09ba9f2c23dec6e681491e4
+            [transaction_status] => settlement
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 13:33:16
+            [settlement_time] => 2024-12-13 13:33:26
+            [expiry_time] => 2024-12-13 13:48:16
+        )
+
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 201
+            [transaction_id] => A120241213063613oE2tjGVUF0ID
+            [gross_amount] => 36000.00
+            [currency] => IDR
+            [order_id] => A120241213063613oE2tjGVUF0ID
+            [payment_type] => dana
+            [signature_key] => c6aecc8c8be9017df78469ded0f698ead75f4b39d311ce1cf09c3e67cdce9c0d5c730b56477dc8d6c58e0182f79c638b8337333278b755c2328698d8277eb924
+            [transaction_status] => pending
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 13:36:13
+            [expiry_time] => 2024-12-13 13:51:13
+        )
+
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 200
+            [transaction_id] => A120241213063613oE2tjGVUF0ID
+            [gross_amount] => 36000.00
+            [currency] => IDR
+            [order_id] => A120241213063613oE2tjGVUF0ID
+            [payment_type] => dana
+            [signature_key] => 601e173c10b65488bb9eeedeb253ec299f597a345f4957850591e92e050b51aef4c4391d9b157e74bf013a419ee89b766815e4ae3bb9336554a56813be7f8e58
+            [transaction_status] => settlement
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 13:36:13
+            [settlement_time] => 2024-12-13 13:36:19
+            [expiry_time] => 2024-12-13 13:51:13
+        )
+
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 201
+            [transaction_id] => A120241213070724WY3XgPsocUID
+            [gross_amount] => 5000.00
+            [currency] => IDR
+            [order_id] => A120241213070724WY3XgPsocUID
+            [payment_type] => dana
+            [signature_key] => 5e17a0144d2295805ce30b99832700f4e9c424b18d5db0a3f48e719b7f2203297716f77f4df611dc8fd590330250fb966290f5e1412b83a44353bebf23999e21
+            [transaction_status] => pending
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 14:07:24
+            [expiry_time] => 2024-12-13 14:22:24
+        )
+
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 200
+            [transaction_id] => A120241213070724WY3XgPsocUID
+            [gross_amount] => 5000.00
+            [currency] => IDR
+            [order_id] => A120241213070724WY3XgPsocUID
+            [payment_type] => dana
+            [signature_key] => 985d7ef37cf0b56f64ab0e603d5960c9666f9ba1522cf4609ded404ce7c58b18bd5156de00a9596ac5a6f3675f87fcde740ab4170cf90b1788828da539bb3cf4
+            [transaction_status] => settlement
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 14:07:24
+            [settlement_time] => 2024-12-13 14:07:34
+            [expiry_time] => 2024-12-13 14:22:24
+        )
+
+)
+Received Notification: Array
+(
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 200
+            [transaction_id] => A120241213080830UDf1XD4SKyID
+            [gross_amount] => 108000.00
+            [currency] => IDR
+            [order_id] => A120241213080830UDf1XD4SKyID
+            [payment_type] => dana
+            [signature_key] => e47d165bec481dbcb5aeb675b16657fe6580e31c9c03166314520aedb44861fedb88e23a44c11f61452bbc85e5808dbc1a410a13b4df865d524513f462cc8dae
+            [transaction_status] => settlement
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 15:08:30
+            [settlement_time] => 2024-12-13 15:08:39
+            [expiry_time] => 2024-12-13 15:23:30
+        )
+
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 201
+            [transaction_id] => A120241213081108QMkKTk4iwwID
+            [gross_amount] => 84000.00
+            [currency] => IDR
+            [order_id] => A120241213081108QMkKTk4iwwID
+            [payment_type] => dana
+            [signature_key] => abe80375ee058a33a26f23a108ee18cacc035c4f245f98c62179e2449e72517842f3c6d678f663e258cd4881dbb0c3a4fd2b2718eeab9655aa5496fbc908f686
+            [transaction_status] => pending
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 15:11:08
+            [expiry_time] => 2024-12-13 15:26:08
+        )
+
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 200
+            [transaction_id] => A120241213081108QMkKTk4iwwID
+            [gross_amount] => 84000.00
+            [currency] => IDR
+            [order_id] => A120241213081108QMkKTk4iwwID
+            [payment_type] => dana
+            [signature_key] => b8dc6e6048617321a5dcf138bdf0d143cb83abc0e0f190a67b16a978b23b5d31b794d636d1e1e87ed457fe570674c55298b474e2df40d3ed698142882ed1f50e
+            [transaction_status] => settlement
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 15:11:08
+            [settlement_time] => 2024-12-13 15:11:13
+            [expiry_time] => 2024-12-13 15:26:08
+        )
+
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 201
+            [transaction_id] => cdc3242a-1926-41b3-a084-d782de8f314f
+            [gross_amount] => 25000.00
+            [currency] => IDR
+            [order_id] => 169
+            [payment_type] => qris
+            [signature_key] => f689165135c8e873f357a73a6df320732b970691604b5f03fcd755092dc198794eccea98092a0a1e1a2d1f6c8ae70463527be0e23ced2fd39bf49264dc11e6a0
+            [transaction_status] => pending
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_time] => 2024-12-13 15:13:04
+            [expiry_time] => 2024-12-13 15:28:04
+        )
+
+)
+Received Notification: Array
+(
+)
+Parsed Notification: Midtrans\Notification Object
+(
+    [response:Midtrans\Notification:private] => stdClass Object
+        (
+            [status_code] => 200
+            [transaction_id] => cdc3242a-1926-41b3-a084-d782de8f314f
+            [gross_amount] => 25000.00
+            [currency] => IDR
+            [order_id] => 169
+            [payment_type] => qris
+            [signature_key] => 98a1719f00a4c1072021f2149413edd756fd9a3ce264fa2fbd9978417c03d292d8091690ebc46ce2dd59cfa57552a66a1049d78a832dc176484b57664eb2ab04
+            [transaction_status] => settlement
+            [fraud_status] => accept
+            [status_message] => Success, transaction is found
+            [merchant_id] => G046567201
+            [transaction_type] => on-us
+            [issuer] => gopay
+            [acquirer] => gopay
+            [transaction_time] => 2024-12-13 15:13:04
+            [settlement_time] => 2024-12-13 15:13:47
+            [expiry_time] => 2024-12-13 15:28:04
+        )
+
+)
+Received Notification: Array
+(
+)

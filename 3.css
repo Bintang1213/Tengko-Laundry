@@ -1,0 +1,28 @@
+/* Posisi navbar */
+nav {
+    position: relative; /* Pastikan posisi navbar relatif untuk penempatan profil */
+    padding: 10px; /* Padding agar tidak terlalu rapat dengan batas atas */
+}
+
+/* Gambar profil */
+.profile {
+    position: absolute; /* Posisi absolut untuk memastikan di pojok kanan atas */
+    top: 0px; /* 10px dari atas navbar */
+    right: 20px; /* 20px dari sisi kanan */
+    width: 60px; /* Lebar gambar profil */
+    height: 60px; /* Tinggi gambar profil */
+    border-radius: 60%; /* Membuat gambar profil menjadi lingkaran */
+    border: 2px solid #fff; /* Memberikan border putih untuk kontras */
+}
+
+.profile img {
+    width: 100%; /* Mengisi seluruh area gambar */
+    height: 100%; /* Mengisi seluruh area gambar */
+    object-fit: cover; /* Menjaga proporsi gambar */
+}
+
+/* Menambahkan efek hover pada gambar profil */
+.profile:hover {
+    border: 2px solid #4CAF50; /* Ganti border saat hover */
+    cursor: pointer; /* Menambahkan pointer saat hover */
+}

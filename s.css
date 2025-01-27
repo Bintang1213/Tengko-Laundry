@@ -1,0 +1,104 @@
+/* General Reset */
+body, h1, div, span, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container */
+.order-detail-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Order Summary */
+.order-summary {
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.info:last-child {
+    border-bottom: none;
+}
+
+.info span {
+    font-weight: bold;
+    color: #555;
+}
+
+.info p {
+    color: #333;
+}
+
+/* Status */
+.status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #085afe;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.status.done {
+    background-color: #28a745;
+}
+
+.status.pending {
+    background-color: #ffc107;
+}
+
+.status.cancelled {
+    background-color: #dc3545;
+}
+
+/* Back Button */
+.back-button {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,130 @@
+/* Responsif untuk tampilan mobile */
+@media only screen and (max-width: 768px) {
+    /* Sidebar */
+    #sidebar {
+        display: none; /* Sembunyikan sidebar pada layar kecil */
+    }
+
+    /* Navbar */
+    nav .nav-link {
+        font-size: 14px;
+    }
+
+    nav .navbar-brand {
+        font-size: 16px;
+    }
+
+    /* Konten utama */
+    #content {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .table-responsive {
+        overflow-x: auto; /* Tambahkan scroll horizontal jika tabel lebih besar dari layar */
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .table th, .table td {
+        padding: 8px;
+    }
+
+    .profile img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Responsif untuk tampilan tablet */
+@media only screen and (max-width: 1024px) {
+    /* Sidebar */
+    #sidebar {
+        display: block;
+        width: 250px; /* Lebar sidebar lebih kecil */
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    table {
+        font-size: 15px;
+    }
+
+    .table th, .table td {
+        padding: 12px;
+    }
+}
+
+/* Responsif untuk tampilan desktop */
+@media only screen and (min-width: 1025px) {
+    /* Sidebar */
+    #sidebar {
+        display: block;
+        width: 300px;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    .table th, .table td {
+        padding: 15px;
+    }
+}
+
+/* Styling tambahan untuk konten yang lebih besar */
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Styling untuk notifikasi */
+.notif-message {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.notif-error {
+    background-color: #f44336; 
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.notif-info {
+    background-color: #2196F3;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
